@@ -1,3 +1,7 @@
+# User settings
+groupadd webadmins
+usermod -a -G webadmins $USER
+
 # Components and software
 dnf install git mc nano wget rdesktop geany gimp arandr tigervnc xclip hunspell-ru ccze
 # Fedy
