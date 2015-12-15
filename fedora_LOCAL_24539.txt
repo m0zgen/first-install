@@ -3,11 +3,7 @@ groupadd webadmins
 usermod -a -G webadmins $USER
 
 # Components and software
-<<<<<<< HEAD
 dnf install git mc nano wget rdesktop geany gimp arandr tigervnc xclip hunspell-ru ccze freemind youtube-dl ffmpeg vlc nmap alacarte
-=======
-dnf install git mc nano wget rdesktop geany gimp arandr tigervnc xclip hunspell-ru ccze freemind youtube-dl ffmpeg vlc kruler
->>>>>>> 44547eab5ad04c0c2dc5eb8f953f8f01aec35740
 # Fedy
 bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
 # Lamp
