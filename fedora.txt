@@ -3,10 +3,10 @@ groupadd webadmins
 usermod -a -G webadmins $USER
 
 # Components and software Workstantion
-dnf install git mc htop nano wget rdesktop arandr tigervnc xclip hunspell-ru ccze youtube-dl ffmpeg nmap alacarte 
+dnf install git mc htop nano wget rdesktop arandr tigervnc xclip hunspell-ru ccze youtube-dl ffmpeg nmap alacarte
 
 # Additional soft for workstantion
-dnf install evolution evolution-mapi geany gimp freemind vlc kruler
+dnf install evolution evolution-mapi geany gimp freemind vlc kruler pdfmod
 
 # Fedy
 bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
