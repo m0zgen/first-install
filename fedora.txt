@@ -6,7 +6,7 @@ usermod -a -G webadmins $USER
 dnf install git mc htop nano wget rdesktop arandr tigervnc xclip hunspell-ru ccze youtube-dl ffmpeg nmap alacarte mediainfo
 
 # Additional soft for workstantion
-dnf install geany gimp freemind vlc kruler pdfmod
+dnf install geany gimp freemind smplayer vlc kruler pdfmod plank
 
 # Mail
 dnf install evolution evolution-mapi 
